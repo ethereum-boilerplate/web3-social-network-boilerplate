@@ -23,11 +23,11 @@ REACT_APP_MORALIS_APPLICATION_ID = xxxxxxxxxxxx
 REACT_APP_MORALIS_SERVER_URL = https://xxxxxx.grandmoralis.com:2053/server
 ```
 📄  Set your Contract
-Deploy a copy of https://github.com/DanielMoralisSamples/Video_Tutorials/tree/main/26B_Decentralized_SN
 ```sh
-And add some categories through the addCategory function.
-Set listeners in the Moralis Server to sync all your contracts events.
-Add your contract address in MoralisDappProvider.js contract address as the default value of the state
+- Deploy a copy of https://github.com/DanielMoralisSamples/Video_Tutorials/tree/main/26B_Decentralized_SN
+- Add some categories through the addCategory function.
+- Set listeners in the Moralis Server to sync all your contracts events.
+- Add your contract address in MoralisDappProvider.js contract address as the default value of the state
 ```
 🚴‍♂️ Run your App:
 ```sh
