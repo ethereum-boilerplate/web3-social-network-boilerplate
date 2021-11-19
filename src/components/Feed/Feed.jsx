@@ -1,5 +1,7 @@
 import {useMoralisDapp} from "providers/MoralisDappProvider/MoralisDappProvider"
 import {useState} from "react"
+import Posts from "./components/Posts"
+import Reputation from "components/Reputation"
 
 import {Avatar, Button }from "antd" 
 import glStyles from "components/gstyles"
@@ -36,13 +38,13 @@ const Feed = () => {
                 }}
             >
                 <Avatar src={<Blockie currentWallet />} />
-                <h4> Your Reputation in {selectedCategory["category"]} is {""} </h4>
+                <h4> Your Reputation in {selectedCategory["category"]} is <Reputation/> </h4>
                 <Button shape="round" onClick={toogleShowAddPost}>
                     Post
                 </Button>
             </div>
             {showAddPost ? <AddPost/>:""}
-            <h3>Post will go here</h3>
+            <Posts/>
         </div>    
         )
     }
