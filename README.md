@@ -1,9 +1,12 @@
 # `web3-social-network-boilerplate`
 
-This Project is a fork of [Ethereum Boilerplate](https://github.com/ethereum-boilerplate/ethereum-boilerplate)
+This Project is a fork of [Ethereum Boilerplate](https://github.com/ethereum-boilerplate/ethereum-boilerplate) and demostrates how you can build your own Web3 Ethereum Social Network. This project of course work on any EVM-compatible blockchain such as Polygon, Avalanche, Binance Smart Chain and other such chains. 
 
 # ⭐️ `Star us`
 If this boilerplate helps you build Ethereum dapps faster - please star this project, every star makes us very happy!
+
+# 🤝 `How to get help`
+If you have any questions or need help running this project please don't hesitate to ask in [our forum](https://forum.moralis.io/t/ethereum-social-media-boilerplate/4655). We are monitoring it 24/7 and are here to help you get up to speed.
 
 # 🚀 Quick Start
 
