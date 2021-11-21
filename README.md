@@ -24,7 +24,7 @@ REACT_APP_MORALIS_SERVER_URL = https://xxxxxx.grandmoralis.com:2053/server
 ```
 📄  Set your Contract
 ```sh
-- Deploy a copy of https://github.com/DanielMoralisSamples/Video_Tutorials/tree/main/26B_Decentralized_SN
+- Deploy smart contracts from this folder https://github.com/ethereum-boilerplate/web3-social-network-boilerplate/tree/main/smart%20contracts
 - Add some categories through the addCategory function.
 - Set listeners in the Moralis Server to sync all your contracts events.
 - Add your contract address in MoralisDappProvider.js contract address as the default value of the state
