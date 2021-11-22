@@ -2,7 +2,7 @@
 
 This Project is a fork of [Ethereum Boilerplate](https://github.com/ethereum-boilerplate/ethereum-boilerplate) and demostrates how you can build your own Web3 Ethereum Social Network. This project of course work on any EVM-compatible blockchain such as Polygon, Avalanche, Binance Smart Chain and other such chains. 
 
-<img width="1184" alt="Screenshot 2021-11-21 at 15 59 25" src="https://user-images.githubusercontent.com/78314301/142767631-7d07a617-39e0-4371-a509-acac45a18cf5.png">
+![social](https://user-images.githubusercontent.com/78314301/142860643-f458fd69-ab8b-4408-82e3-d02e10ea590e.gif)
 
 # ⭐️ `Star us`
 If this boilerplate helps you build Ethereum dapps faster - please star this project, every star makes us very happy!
