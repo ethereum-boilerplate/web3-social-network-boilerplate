@@ -14,8 +14,6 @@ import Votes from "./Votes";
 import AddComment from "./AddComment";
 import Feed from "./FeedComment";
 import Donate from "./Donate";
-import ShowProfilePostName from "components/ShowProfilePostName";
-import ShowProfilePostPic from "components/ShowProfilePostPic";
 
 const Post = ({ post }) => {
   const [showAddComment, setShowAddComment] = useState(false);
@@ -174,8 +172,6 @@ const Post = ({ post }) => {
     <Comment
       style={{ ...glStyles.card, padding: "0px 15px", marginBottom: "10px" }}
       actions={actions}
-      author={<ShowProfilePostName postOwner={post["postOwner"]} />}
-      avatar={<ShowProfilePostPic postOwner={post["postOwner"]} />}
       content={
         <>
           <Text strong style={{ fontSize: "20px", color: "#333" }}>
